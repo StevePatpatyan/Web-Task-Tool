@@ -21,4 +21,22 @@ playwright install
 
 ## AI-INTEGRATED WEB TASK AUTOMATION TOOL WITH AI AND PLAYWRIGHT MCP
 
-WIP
+Start up playwright MCP
+
+npx @playwright/mcp@latest --port 8931
+
+===
+
+Run api
+
+uvicorn api:app
+
+===
+
+Or run client.py to run in main rather than API
+
+python client.py
+
+
+The tool will attempt to solve your task through a prompt and return its results as steps it took, or as an error if there was an error with completing the task.
+

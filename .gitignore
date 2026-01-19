@@ -1,1 +1,6 @@
-.env
+FixedTask/.venv
+AIMCPPowered/.venv
+AIMCPPowered/.env
+AIMCPPowered/__pycache__
+AIMCPPowered/PlaywrightMCP
+AIMCPPowered/node_modules
