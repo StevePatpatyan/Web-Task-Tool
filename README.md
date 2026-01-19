@@ -31,6 +31,12 @@ Run api
 
 uvicorn api:app
 
+Request Format:
+{
+"api_key": YOUR_API_KEY,
+"task": YOUR_TASK
+}
+
 ===
 
 Or run client.py to run in main rather than API
